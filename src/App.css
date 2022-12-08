@@ -1,0 +1,89 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-cute-hand-drawn-style-math-education-plaid-background-picture-image_1176716.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  vertical-align: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  background-color:blueviolet;
+  overflow: hidden;
+  border-radius: 25px;
+  box-shadow: 5px 5px rgba(96, 81, 109, 0.295);
+
+
+  
+}
+.display{
+  padding: 16px;
+  text-align: right;
+  background-color: palevioletred;
+  font-size: 24px;
+  font-weight:300;
+}
+.display span {
+  font-size: 14px;
+  color: whitesmoke;
+}
+button {
+  appearance: none;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 16px;
+ 
+  transition: 0.4s;
+
+}
+button:hover{
+  opacity: 0.9;
+  
+}
+.operators{
+  display: flex;
+}
+
+.operators button{
+  flex: 1 1 0%;
+  background-color: pink;
+  font-weight: 600;
+  color: grey;
+
+}
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.digits button{
+  flex: 1 1 33.333%
+}
+
+footer {
+  position: absolute;
+  margin-top: 190px;;
+  width: 30%;
+  color:black;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+  text-decoration: none;
+  color:black;
+  font-weight: 400;
+  font-family: 'Raleway', sans-serif;
+}
